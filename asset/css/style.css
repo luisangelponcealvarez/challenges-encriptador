@@ -1,0 +1,54 @@
+/*bormateado y background*/
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #F3F5FC;
+  }
+
+/*logo*/
+  #conteiner #logo{
+    height: 48px;
+    width: 120px;
+    margin: 20px 20px;
+  }
+  #conteiner #logo img{
+    height: 48px;
+    width: 120px;
+    margin: 20px 20px;
+  }
+
+/*input del texto*/
+  #input-texto{
+    left: 283px;
+    margin: 58px 356px;
+  }
+
+/*mensaje*/
+  #conteiner #mensaje{
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 944px;
+    margin: 98px 864px;
+    border-radius: 32px;
+  }
+  #conteiner #mensaje .Muneco{
+    left: 1033px;
+  }
+
+
+/*button*/
+  
+
+
+
+
+
+
+
+
+
+
+
