@@ -68,16 +68,21 @@
   }
 
 /*button*/
-  #button .icon p{
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 1rem;
+  #button{
+    margin: -190px 0px 0px -24em;
+  }
+  #button .icon {
+    margin: 51px 0px 0px 47em;
   } 
   #button .vector{
     padding: 0 0 1% 0;
   }
-
-
+  #button .button-e{
+    margin: 40px 0px 0px 41em;
+  }
+  #button .button-d{
+    margin: -49px 0px 0px 61em;
+  }
 
 
 
