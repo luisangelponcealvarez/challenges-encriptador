@@ -43,6 +43,30 @@
     resize: none;
     outline: none;
   }
+  @media (max-width: 700px) {
+    .entrada{
+      margin-top: 120px;
+      text-align: center;
+    }
+    #conteiner .entrada{
+      text-align: center;
+      margin-top: 82px;
+      resize: none;
+      height: 0px;
+      width: 100%;
+    }
+    #conteiner textarea{
+      font-family: 'Bitter', serif;
+      width: 47%;
+      height: 225px;
+      padding: 5px 10px;
+      font-size: 20px;
+      background-color: #F3F5FC;
+      border: #F3F5FC;
+      resize: none;
+      outline: none;
+    }
+  }
 /*mensaje*/
   #mensaje{
     z-index: 1;
@@ -83,7 +107,9 @@
   #button .button-d{
     margin: -49px 0px 0px 61em;
   }
-
+  #mensaje .button-copiar{
+    margin: -79px 0px 0px 6em;
+  }
 
 
 
