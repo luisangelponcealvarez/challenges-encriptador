@@ -20,27 +20,62 @@
     margin: 20px 20px;
   }
 
-/*input del texto*/
-  #input-texto{
-    left: 283px;
-    margin: 58px 356px;
+/*textarea*/
+  .entrada{
+    margin-top: 120px;
+    text-align: center;
   }
-
+  #conteiner .entrada{
+    text-align: center;
+    margin-top: 82px;
+    resize: none;
+    height: 0px;
+    width: 71%;
+  }
+  #conteiner textarea{
+    font-family: 'Bitter', serif;
+    width: 47%;
+    height: 225px;
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: #F3F5FC;
+    border: #F3F5FC;
+    resize: none;
+    outline: none;
+  }
 /*mensaje*/
-  #conteiner #mensaje{
+  #mensaje{
+    z-index: 1;
     background-color: #FFFFFF;
     width: 400px;
-    height: 944px;
-    margin: 98px 864px;
+    height: 550px;
+    margin: -113px 0px 0px 878px;
     border-radius: 32px;
   }
-  #conteiner #mensaje .Muneco{
-    left: 1033px;
+  #mensaje .Muneco img{
+    margin: 108px 87px;
+    max-width: 210px;
+    width: 100%;
+  }
+  #mensaje h2{
+    text-align: center;
+    margin: -64px 10px;
+  }
+  #mensaje .text-mensaje{
+    font-size: 20px;
+    text-align: center;
+    margin: 106px 10px;
   }
 
-
 /*button*/
-  
+  #button .icon p{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+  } 
+  #button .vector{
+    padding: 0 0 1% 0;
+  }
 
 
 

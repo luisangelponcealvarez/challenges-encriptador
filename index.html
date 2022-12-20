@@ -13,23 +13,36 @@
       <div id="logo">
         <img src="./img/Logo@2x.png" alt="logo">
       </div>
-    <!--input del texto-->
-      <div id="input-texto">
-        <input type="text" placeholder="Ingrese el texto aqui">
+
+    <!--textarea-->
+      <div class="entrada">
+        <textarea name="" placeholder="Ingresa el texto aqui" id="textarea" cols="30" rows="10"></textarea>
       </div>
+
     <!--caja de mensaje-->
       <div id="mensaje">
         <div class="Muneco">
           <img src="./img/Muñeco.png" alt="Muñeco">
         </div>
-        <p>Ningún mensaje fue encontrado</p>
-        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
-      </div>
+        <h2>Ningún mensaje fue encontrado</h2>
+        <p class="text-mensaje" >Ingresa el texto que desees encriptar o desencriptar.</p>
+        <!--Al inicio deshabilitado display: none-->
+        <!--<div id="data"> 
+          <div class="muestra-result scroll">
+              <p id="resultt"></p>
+          </div>
+          <button type="button" class="boton botonR" onclick="copiartexto()">Copiar</button>
+        </div>
+      </div>-->
+
     <!--button-->
       <div id="button">
         <div class="icon">
-          <img src="./img/icono.png" alt="icono">
-          <p>Solo letras minúsculas y sin acentos</p>
+          
+          <p>
+            <img src="./img/icono.png" class="vector"  alt="icono">
+            Solo letras minúsculas y sin acentos
+          </p>
         </div>
         <a href="">
           <button>Encriptar</button>
@@ -38,6 +51,8 @@
           <button>Desencriptar</button>
         </a>
       </div>
+    
+
   </header>
 
   <script src="./asset/js/main.js"></script>
