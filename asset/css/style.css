@@ -30,14 +30,14 @@
     margin-top: 120px;
     text-align: center;
   }
-  #conteiner .entrada{
+  .entrada{
     text-align: center;
     margin-top: 82px;
     resize: none;
     height: 0px;
     width: 71%;
   }
-  #conteiner textarea{
+  textarea{
     font-family: 'Bitter', serif;
     width: 47%;
     height: 225px;
@@ -93,156 +93,4 @@
     margin: -79px 0px 0px 6em;
   }
 
-/*mediaqueris*/
-
-  @media (max-width: 700px) {
-
-    /*body*/
-      body{
-        background-color: #F3F5FC;
-        overflow-x: hidden;
-      }
-
-    /*logo*/
-      #conteiner #logo{
-        height: 48px;
-        width: 120px;
-        margin: -8px -52px;
-      }
-      #conteiner #logo img{
-        height: 48px;
-        width: 120px;
-        margin: 20px 20px;
-      }
-      .titulo{
-        margin: -36px 75px 0px;
-      }    
-
-    /*textarea*/
-      .entrada{
-        
-        display: none;
-
-        margin-top: 120px;
-        text-align: center;
-      }
-      #conteiner .entrada{
-        
-        display: none;
-
-        text-align: center;
-        margin-top: 82px;
-        resize: none;
-        height: 0px;
-        width: 71%;
-      }
-      #conteiner textarea{
-        
-        display: none;
-        
-        font-family: 'Bitter', serif;
-        width: 47%;
-        height: 225px;
-        padding: 5px 10px;
-        font-size: 20px;
-        background-color: #F3F5FC;
-        border: #F3F5FC;
-        resize: none;
-        outline: none;
-      }
-
-    /*caja de mensaje*/
-      #mensaje{
-
-        display: none;
-
-        z-index: 1;
-        background-color: #FFFFFF;
-        width: 400px;
-        height: 550px;
-        margin: -113px 0px 0px 878px;
-        border-radius: 32px;
-      }
-      #mensaje .Muneco img{
-
-        display: none;
-
-        margin: 108px 87px;
-        max-width: 210px;
-        width: 100%;
-      }
-      #mensaje h2{
-
-        display: none;
-
-        text-align: center;
-        margin: -64px 10px;
-      }
-      #mensaje .text-mensaje{
-
-        display: none;
-
-        font-size: 20px;
-        text-align: center;
-        margin: 106px 10px;
-      }
-  
-    /*button*/
-      #button{
-
-        display: none;
-
-        margin: -190px 0px 0px -24em;
-      }
-      #button .icon {
-
-        display: none;
-
-        margin: 51px 0px 0px 47em;
-      } 
-      #button .vector{
-
-        display: none;
-
-        padding: 0 0 1% 0;
-      }
-      #button .button-e{
-        
-        display: none;
-        
-        margin: 40px 0px 0px 41em;
-      }
-      #button .button-d{
-       
-        display: none;
-       
-        margin: -49px 0px 0px 61em;
-      }
-      #mensaje .button-copiar{
-        
-        display: none;
-        
-        margin: -79px 0px 0px 6em;
-      }
-
-    /*footer*/
-      #footer-links{
-        
-        display: none;
-
-        text-align: center;
-
-
-
-      }
-
-
-
-
-
-  }
-
-
-
-
-
+/*footer*/
