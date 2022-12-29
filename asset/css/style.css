@@ -94,3 +94,26 @@
   }
 
 /*footer*/
+  #conteiner-footer{
+    top: 12em;
+    right: 78em;
+    position: absolute;
+    text-align: right;
+    writing-mode: vertical-rl;
+  }
+  #conteiner-footer .img-icon-github{
+    top: 3em;
+    right: 2em;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+  }
+  #conteiner-footer .img-icon-linkedin{
+    top: 8em;
+    right: 2em;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+  }
+
+
