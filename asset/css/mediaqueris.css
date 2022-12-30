@@ -15,24 +15,40 @@
       }
 
       .titulo{
+        top: -38px;
+        right: 255px;
+        position: absolute;
         margin: -38px 255px 10px;
       }
     
-   
+    /*textarea*/
+      textarea{
+        display: none;
+      }
+
+
+
+
 
   }
 
 /*tablet 768px*/
   @media (max-width: 768px) {
-    
+    body{
+      display: none;
+    }
   }
 
 /*laptops 992px*/
   @media (max-width: 992px) {
-    
+    body{
+      display: none;
+    }
   }
 
 /*large 1200px*/
   @media (max-width: 1200px) {
-    
+    body{
+      display: none;
+    }
   }
