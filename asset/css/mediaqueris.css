@@ -2,53 +2,124 @@
   @media (max-width: 600px) {
     /*logo*/
       #conteiner #logo{
-        top: 20px;
-        right: 20px;
-        position: absolute;
-        height: 48px;
-        width: 120px;
-      }
-      #conteiner #logo img{
-        height: 100em;
-        width: 100em;
-        margin: 20px 20px;
-      }
-
-      .titulo{
-        top: -38px;
-        right: 255px;
-        position: absolute;
-        margin: -38px 255px 10px;
-      }
-    
-    /*textarea*/
-      textarea{
         display: none;
       }
+      #conteiner #logo img{
+        display: none;
+      }
+      .titulo{
+       display: none;
+      }
 
+    /*textarea*/
+      .entrada{
+        top: -5em;
+        right: 5em;
+        position: absolute;
+        margin-top: 120px;
+        text-align: center;
+      }
+      
+      textarea{
+        font-family: 'Bitter', serif;
+        width: 350px;
+        height: 350px;
+        padding: 40px;
+        text-align: center;
+        font-size: 20px;
+        background-color: #fff47f;
+        border-radius: 30px;
+      }
+      
+    /*caja de mensaje*/
+      #mensaje{
+        top: 40em;
+        right: 4em;
+        position: absolute;
+        background-color: #FFFFFF;
+        width: 300px;
+        height: 300px;
+        border-radius: 30px;
+      }
+      #mensaje .Muneco img{
+        display: none;
+      }
+      #mensaje h2{
+       top: 20em;
+       right: 20em;
+       position: absolute;
+      }
+      #mensaje .text-mensaje{
+        font-size: 20px;
+        text-align: center;
+        margin: 106px 10px;
+      }
 
+    /*button*/
+      #button{
+        top: 40em;
+        right: -6em;
+        position: absolute;
+      }
+      #button .icon {
+        top: -11em;
+        right: 8em;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+      } 
+      #button .button-e{
+        display: none;
+      }
+      #button .button-d{
+        display: none;
+      }
+      #mensaje .button-copiar{
+        margin: -79px 0px 0px 6em;
+      }
 
-
+    /*footer*/
+      #conteiner-footer{
+        top: 12em;
+        right: 78em;
+        position: absolute;
+        text-align: right;
+        writing-mode: vertical-rl;
+      }
+      #conteiner-footer .img-icon-github{
+        top: 3em;
+        right: 2em;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+      }
+      #conteiner-footer .img-icon-linkedin{
+        top: 8em;
+        right: 2em;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+      }
 
   }
 
 /*tablet 768px*/
   @media (max-width: 768px) {
     body{
-      display: none;
+      display: block;
     }
   }
 
 /*laptops 992px*/
   @media (max-width: 992px) {
     body{
-      display: none;
+      display: block;
     }
   }
 
 /*large 1200px*/
   @media (max-width: 1200px) {
     body{
-      display: none;
+      display: block;
     }
   }
