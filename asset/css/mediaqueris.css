@@ -26,7 +26,7 @@
       }
       
       textarea{
-        width: 400px;
+        width: 450px;
         height: 400px;
         padding: 40px;
         text-align: center;
@@ -70,7 +70,7 @@
       }
       #button .icon {
         top: -12em;
-        right: 9em;
+        right: 6em;
         position: absolute;
         width: 300px;
         height: 300px;
