@@ -1,5 +1,10 @@
 /* celular 600px*/
   @media (max-width: 600px) {
+      body{
+        background-color: #F3F5FC;
+        height: 100em;
+        width: 100%;
+      }
     /*logo*/
       #conteiner #logo{
         display: none;
@@ -16,14 +21,13 @@
         top: -5em;
         right: 5em;
         position: absolute;
-        margin-top: 120px;
+        margin-top: 102px;
         text-align: center;
       }
       
       textarea{
-        font-family: 'Bitter', serif;
-        width: 350px;
-        height: 350px;
+        width: 400px;
+        height: 400px;
         padding: 40px;
         text-align: center;
         font-size: 20px;
@@ -33,6 +37,9 @@
       
     /*caja de mensaje*/
       #mensaje{
+
+        display: none;
+
         top: 40em;
         right: 4em;
         position: absolute;
@@ -62,8 +69,8 @@
         position: absolute;
       }
       #button .icon {
-        top: -11em;
-        right: 8em;
+        top: -12em;
+        right: 9em;
         position: absolute;
         width: 300px;
         height: 300px;
