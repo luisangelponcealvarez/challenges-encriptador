@@ -50,26 +50,40 @@
   
 /*caja de mensaje*/
   #mensaje{
+    top: 2em;
+    right: 6em;
+    position: absolute;
     z-index: 1;
     background-color: #FFFFFF;
     width: 400px;
     height: 550px;
-    margin: -113px 0px 0px 878px;
     border-radius: 32px;
   }
-  #mensaje .Muneco img{
-    margin: 108px 87px;
-    max-width: 210px;
-    width: 100%;
+  .output-texto {
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    top: 1em;
+    right: 2em;
+    position: absolute;
   }
   #mensaje h2{
+    top: 10em;
+    right: 1em;
+    position: absolute;
     text-align: center;
-    margin: -64px 10px;
   }
   #mensaje .text-mensaje{
+    top: 16em;
+    right: 0em;
+    position: absolute;
     font-size: 20px;
     text-align: center;
-    margin: 106px 10px;
   }
 
 /*button*/
@@ -77,19 +91,27 @@
     margin: -190px 0px 0px -24em;
   }
   #button .icon {
-    margin: 51px 0px 0px 47em;
+    top: 28em;
+    right: 44em;
+    position: absolute;
   } 
   #button .vector{
     padding: 0 0 1% 0;
   }
   #button .button-e{
-    margin: 40px 0px 0px 41em;
+    top: 31em;
+    right: 54em;
+    position: absolute;
   }
   #button .button-d{
-    margin: -49px 0px 0px 61em;
+    top: 31em;
+    right: 34em;
+    position: absolute;
   }
   #mensaje .button-copiar{
-    margin: -79px 0px 0px 6em;
+    top: 28em;
+    right: 6em;
+    position: absolute;
   }
 
 /*footer*/
