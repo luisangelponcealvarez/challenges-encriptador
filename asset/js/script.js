@@ -70,6 +70,7 @@ function desencriptar() {
     document.getElementById("mensaje").style.display = "none";
     document.getElementById("mensaje").style.display = "inline-block";
     document.getElementById("output-texto").innerHTML = txt_cifrado;    
+    value();
     }
 }
 
