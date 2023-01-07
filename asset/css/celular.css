@@ -1,0 +1,25 @@
+/*bormateado y background*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #F3F5FC;
+}
+
+#conteiner h1{
+  display: none;
+}
+
+.entrada{
+  top: 2em;
+  right: 6em;
+  position: absolute;
+  border-radius: 10px;
+}
+
+
+
+
+

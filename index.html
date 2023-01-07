@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Challenges-encriptador</title>
   <!--link de estilos-->
-  <link rel="stylesheet" href="./asset/css/style.css"media="screen and (min-width: 1024px)">
-  <!--mediaqueris-->
-  <link rel="stylesheet" href="./asset/css/celular.css" media="screen and (min-width: 760px)">
+  <link rel="stylesheet" href="./asset/css/style.css" media="screen and (min-width: 1024px)">
+  <!--celular-->
+  <link rel="stylesheet" href="./asset/css/celular.css" media="screen and (max-width: 850px)">
   <!--link de button-->
   <link rel="stylesheet" href="./asset/css/button.css">
   <!-- Favicon -->
@@ -16,13 +16,7 @@
 </head>
 <body>
   <header id="conteiner">
-    <!--logo-->
-      <div id="logo">
-        <img src="./img/Logo@2x.png" alt="logo">
-      </div>
-      <div class="titulo">
         <h1>Challenges-encriptador</h1>
-      </div>
   </header>
 
   <main>
@@ -34,8 +28,10 @@
     <!--caja de mensaje-->
       <div id="mensaje">
         <textarea name="" id="output-texto" class="output-texto" cols="30" rows="10" readonly></textarea>
-        <h2 >Ningún mensaje fue encontrado</h2>
-        <p class="text-mensaje" >Ingresa el texto que desees encriptar o desencriptar.</p>
+       <div id="texto-1" class="conten-text">
+          <h2>Ningún mensaje fue encontrado</h2>
+          <p class="text-mensaje">Ingresa el texto que desees encriptar o desencriptar.</p>
+       </div>
       
         <!--button-->
           <div class="button-copiar">
