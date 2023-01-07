@@ -13,12 +13,46 @@ body{
 }
 
 .entrada{
-  top: 2em;
-  right: 6em;
-  position: absolute;
-  border-radius: 10px;
+    top: 2em;
+    right: 1em;
+    width: 100%;
+    border-radius: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
 }
 
+.output-texto {
+  top: 26em;
+  right: 4em;
+  position: absolute;
+  text-align: center;
+  margin: 70px 0px;
+  background-color: #FFFFFF;
+}
+#mensaje .conten-text{
+  top: 33em;
+  right: 2em;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+
+.button-copiar{
+  top: 41em;
+  right: 5em;
+  position: absolute;
+}
+
+#button .icon{
+  top: 33em;
+  right: 2em;
+  position: absolute;
+  text-align: center;
+}
 
 
 
