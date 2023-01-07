@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: #F3F5FC;
+  background-color: #FFFFFF;
 }
 
 #conteiner h1{
@@ -16,7 +16,7 @@ body{
     top: 2em;
     right: 1em;
     width: 100%;
-    border-radius: 36px;
+    background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,6 +54,20 @@ body{
   text-align: center;
 }
 
+.button-e{
+  top: 21em;
+  right: 5em;
+  position: absolute;
+}
 
+.button-d{
+  top: 25em;
+  right: 5em;
+  position: absolute;
+}
 
-
+#conteiner-footer{
+  top: 30em;
+  right: 5em;
+  position: absolute;
+}
