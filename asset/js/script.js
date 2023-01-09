@@ -37,9 +37,9 @@ function encriptar() {
           });
     }
     else {
+        document.getElementById("text-mensaje").style.display = "inline-block";
         document.getElementById("texto-1").style.display = "none";
         document.getElementById("texto-1").style.display = "none";
-        document.getElementById("texto-1").style.display = "inline-block";
         document.getElementById("output-texto").innerHTML = txt_cifrado;
         
         value();
@@ -66,9 +66,9 @@ function desencriptar() {
     }
 
     else {
-    document.getElementById("mensaje").style.display = "none";
-    document.getElementById("mensaje").style.display = "none";
-    document.getElementById("mensaje").style.display = "inline-block";
+    document.getElementById("texto-1").style.display = "none";
+    document.getElementById("texto-1").style.display = "none";
+    document.getElementById("texto-1").style.display = "none";
     document.getElementById("output-texto").innerHTML = txt_cifrado;    
     value();
     }
