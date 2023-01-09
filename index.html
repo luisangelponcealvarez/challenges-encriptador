@@ -6,62 +6,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Challenges-encriptador</title>
   <!--link de estilos-->
-  <link rel="stylesheet" href="./asset/css/style.css" media="screen and (min-width: 1024px)">
-  <!--celular-->
-  <link rel="stylesheet" href="./asset/css/celular.css" media="screen and (max-width: 850px)">
+  <link rel="stylesheet" href="./asset/css/style.css">
   <!--link de button-->
   <link rel="stylesheet" href="./asset/css/button.css">
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="./img/favicon-32x32.png">
 </head>
 <body>
+  <!--
   <header id="conteiner">
         <h1>Challenges-encriptador</h1>
-  </header>
+  </header>-->
 
   <main>
     <!--textarea-->
-      <div class="entrada">
+      <div id="entrada">
         <textarea name="" placeholder="Ingresa el texto aqui" id="input-texto" cols="35" rows="20"></textarea>
+
+        <div id="button">
+          <div class="icon">
+            <p>
+              Solo letras minúsculas y sin acentos
+            </p>
+          </div>
+          <div class="button-e">
+            <button class="learn-more" class="b-encriptar" id="b-encriptar" onclick="encriptar()">
+              <span class="circle" aria-hidden="true"></span>
+              <span class="button-text">Encriptar</span>
+            </button>
+          </div>
+  
+          <div class="button-d">
+            <button class="learn-more" class="b-desencriptar" onclick="desencriptar()">
+              <span class="circle" aria-hidden="true"></span>
+              <span class="button-text">Desencriptar</span>
+            </button>
+          </div>
+        </div>
       </div>
 
     <!--caja de mensaje-->
-      <div id="mensaje">
-        <textarea name="" id="output-texto" class="output-texto" cols="35" rows="20" readonly></textarea>
+      <div id="entrada">
+        <textarea name="" id="output-texto" class="output-texto" cols="35" rows="20" spellcheck="false" readonly></textarea>
       
         <div id="texto-1" class="conten-text">
           <h2>Ningún mensaje fue encontrado</h2>
        </div>
        <p class="text-mensaje" id="text-mensaje">Ingresa el texto que desees encriptar o desencriptar.</p>
-        <!--button-->
+    <!--button-->
           <div class="button-copiar">
             <button class="learn-more" class="b-copiar" onclick="copiar()">
               <span class="circle" aria-hidden="true"></span>
               <span class="button-text">COPIAR</span>
             </button>
           </div>
-      </div>
-
-    <!--button-->
-      <div id="button">
-        <div class="icon">
-          <p>
-            Solo letras minúsculas y sin acentos
-          </p>
-        </div>
-        <div class="button-e">
-          <button class="learn-more" class="b-encriptar" id="b-encriptar" onclick="encriptar()">
-            <span class="circle" aria-hidden="true"></span>
-            <span class="button-text">Encriptar</span>
-          </button>
-        </div>
-
-        <div class="button-d">
-          <button class="learn-more" class="b-desencriptar" onclick="desencriptar()">
-            <span class="circle" aria-hidden="true"></span>
-            <span class="button-text">Desencriptar</span>
-          </button>
-        </div>
       </div>
   </main>
 
