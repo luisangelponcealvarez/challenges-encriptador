@@ -9,23 +9,128 @@
     
   }
 
- main{
-  display: flex;
-  flex-wrap: wrap;
- }
-
-  #entrada{
-    flex: 1;
+  #conteiner{
+    top: 2em;
+    right: 49em;
+    position: absolute;
+    display: block;
   }
-
-  #entrada:first-child{
-    flex: 2;
-    padding: 25px;
+  
+  /*textarea*/
+  .entrada{
+    margin-top: 120px;
+    text-align: center;
   }
-
-
-
-
+  .entrada{
+    text-align: center;
+    margin-top: 82px;
+    resize: none;
+    height: 0px;
+    width: 71%;
+    color: #FFFFFF;
+  }
+  textarea{
+    top: 4em;
+    right: 27em;
+    position: absolute;
+    font-family: 'Bitter', serif;
+    width: 44%;
+    height: 364px;
+    padding: 30px 9px;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    border: #7d7e83;
+    resize: none;
+    outline: none;
+    border-radius: 30px;
+    text-align: center;
+  }
+  
+  /*caja de mensaje*/
+  #mensaje{
+    top: 2em;
+    right: 6em;
+    position: absolute;
+    z-index: 1;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 550px;
+    border-radius: 32px;
+  }
+  .output-texto {
+    top: 1em;
+    right: 3em;
+    position: absolute;
+    width: 15em;
+    height: 10em;
+    text-align: center;
+    margin: 70px 0px;
+    background-color: #ffffff7c;
+  }
+  .conten-text{
+    display: block;
+  }
+  #mensaje h2{
+    top: 10em;
+    right: 1em;
+    position: absolute;
+    text-align: center;
+  }
+  #mensaje .text-mensaje{
+    top: 16em;
+    right: 0em;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  /*button*/
+  #button{
+    margin: -190px 0px 0px -24em;
+  }
+  #button .icon {
+    top: 28em;
+    right: 44em;
+    position: absolute;
+  } 
+  #button .vector{
+    padding: 0 0 1% 0;
+  }
+  #button .button-e{
+    top: 31em;
+    right: 54em;
+    position: absolute;
+  }
+  #button .button-d{
+    top: 31em;
+    right: 34em;
+    position: absolute;
+  }
+  #mensaje .button-copiar{
+    top: 28em;
+    right: 6em;
+    position: absolute;
+  }
+  
+  /*footer*/
   #conteiner-footer{
-    display: none;
+    top: 12em;
+    right: 78em;
+    position: absolute;
+    text-align: right;
+    writing-mode: vertical-rl;
+  }
+  #conteiner-footer .img-icon-github{
+    top: 3em;
+    right: 2em;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+  }
+  #conteiner-footer .img-icon-linkedin{
+    top: 8em;
+    right: 2em;
+    position: absolute;
+    width: 50px;
+    height: 50px;
   }

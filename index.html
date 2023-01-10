@@ -22,26 +22,10 @@
     <!--textarea-->
       <div id="entrada">
         <textarea name="" placeholder="Ingresa el texto aqui" id="input-texto" cols="35" rows="20"></textarea>
-
-        <div id="button">
-          <div class="icon">
-            <p>
-              Solo letras minúsculas y sin acentos
-            </p>
-          </div>
-          <div class="button-e">
-            <button class="learn-more" class="b-encriptar" id="b-encriptar" onclick="encriptar()">
-              <span class="circle" aria-hidden="true"></span>
-              <span class="button-text">Encriptar</span>
-            </button>
-          </div>
-  
-          <div class="button-d">
-            <button class="learn-more" class="b-desencriptar" onclick="desencriptar()">
-              <span class="circle" aria-hidden="true"></span>
-              <span class="button-text">Desencriptar</span>
-            </button>
-          </div>
+        <div class="icon">
+          <p>
+            Solo letras minúsculas y sin acentos
+          </p>
         </div>
       </div>
 
@@ -63,6 +47,21 @@
       </div>
   </main>
 
+  <div id="button">
+    <div class="button-e">
+      <button class="learn-more" class="b-encriptar" id="b-encriptar" onclick="encriptar()">
+        <span class="circle" aria-hidden="true"></span>
+        <span class="button-text">Encriptar</span>
+      </button>
+    </div>
+
+    <div class="button-d">
+      <button class="learn-more" class="b-desencriptar" onclick="desencriptar()">
+        <span class="circle" aria-hidden="true"></span>
+        <span class="button-text">Desencriptar</span>
+      </button>
+    </div>
+  </div>
   <!--footer-->
   <footer id="conteiner-footer" >
 
