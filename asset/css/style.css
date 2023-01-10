@@ -119,13 +119,12 @@
     top: 36em;
     right: 34em;
     position: absolute;
-    text-align: right;
   }
   #conteiner-footer .container_text--footer{
-    top: -3em;
+    top: 0em;
     right: 12em;
     position: absolute;
-    text-align: right;
+    width: 20em;
   }
   #conteiner-footer .img-icon-github{
     top: -1em;
