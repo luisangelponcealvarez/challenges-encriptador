@@ -6,7 +6,6 @@
   }
   body{
     background-color: #F3F5FC;
-    
   }
 
   #conteiner{
@@ -35,7 +34,7 @@
     position: absolute;
     font-family: 'Bitter', serif;
     width: 44%;
-    height: 364px;
+    height: 316px;
     padding: 30px 9px;
     font-size: 20px;
     background-color: #FFFFFF;
@@ -61,20 +60,23 @@
     top: 1em;
     right: 3em;
     position: absolute;
-    width: 15em;
-    height: 10em;
+    width: 34%;
+    height: 16em;
     text-align: center;
     margin: 70px 0px;
     background-color: #ffffff7c;
   }
-  .conten-text{
+  .text-mensaje{
+    top: 22em;
+    right: 8em;
+    position: absolute;
     display: block;
   }
-  #mensaje h2{
-    top: 10em;
-    right: 1em;
+  .conten-text{
+    top: 19em;
+    right: 8em;
     position: absolute;
-    text-align: center;
+    display: block;
   }
   #mensaje .text-mensaje{
     top: 16em;
@@ -88,8 +90,8 @@
   #button{
     margin: -190px 0px 0px -24em;
   }
-  #button .icon {
-    top: 28em;
+  #entrada .icon {
+    top: 22em;
     right: 44em;
     position: absolute;
   } 
@@ -97,28 +99,27 @@
     padding: 0 0 1% 0;
   }
   #button .button-e{
-    top: 31em;
+    top: 27em;
     right: 54em;
     position: absolute;
   }
   #button .button-d{
-    top: 31em;
+    top: 27em;
     right: 34em;
     position: absolute;
   }
-  #mensaje .button-copiar{
-    top: 28em;
-    right: 6em;
+  #button .button-copiar{
+    top: 27em;
+    right: 12em;
     position: absolute;
   }
   
   /*footer*/
   #conteiner-footer{
-    top: 12em;
-    right: 78em;
+    top: 36em;
+    right: 34em;
     position: absolute;
     text-align: right;
-    writing-mode: vertical-rl;
   }
   #conteiner-footer .img-icon-github{
     top: 3em;
