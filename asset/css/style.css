@@ -115,23 +115,29 @@
   }
   
   /*footer*/
-  #conteiner-footer{
+  #conteiner-footer {
     top: 36em;
     right: 34em;
     position: absolute;
     text-align: right;
   }
-  #conteiner-footer .img-icon-github{
-    top: 3em;
-    right: 2em;
+  #conteiner-footer .container_text--footer{
+    top: -3em;
+    right: 12em;
     position: absolute;
-    width: 50px;
-    height: 50px;
+    text-align: right;
+  }
+  #conteiner-footer .img-icon-github{
+    top: -1em;
+    right: -1em;
+    position: absolute;
+    width: 45px;
+    height: 45px;
   }
   #conteiner-footer .img-icon-linkedin{
-    top: 8em;
-    right: 2em;
+    top: -1em;
+    right: 3em;
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
   }
