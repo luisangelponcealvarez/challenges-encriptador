@@ -1,0 +1,21 @@
+  #entrada{
+    flex: 1;
+    min-width: 250px; 
+    margin: 0 auto;
+  }
+
+  #entrada:first-child{
+    flex: 2;
+    padding: 30px;
+    margin-bottom: 0px;
+  }
+
+  #button{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #conteiner-footer img{
+    width: 2rem;
+    height: 2rem;
+  }

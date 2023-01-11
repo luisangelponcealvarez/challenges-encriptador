@@ -1,142 +1,31 @@
-/*bormateado y background*/
+/*formateo*/
   *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+
   body{
-    background-color: #F3F5FC;
+    background-color: rgb(107, 107, 106);
   }
 
-  #conteiner{
-    top: 2em;
-    right: 49em;
-    position: absolute;
-    display: block;
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
   }
-  
-  /*textarea*/
-  .entrada{
-    margin-top: 120px;
-    text-align: center;
+
+  #entrada{
+    min-width: 250px;
+    margin: 0 auto;
   }
-  .entrada{
-    text-align: center;
-    margin-top: 82px;
-    resize: none;
-    height: 0px;
-    width: 71%;
-    color: #FFFFFF;
-  }
-  textarea{
-    top: 4em;
-    right: 27em;
-    position: absolute;
-    font-family: 'Bitter', serif;
-    width: 44%;
-    height: 316px;
-    padding: 30px 9px;
-    font-size: 20px;
-    background-color: #FFFFFF;
-    border: #7d7e83;
-    resize: none;
-    outline: none;
-    border-radius: 30px;
-    text-align: center;
-  }
-  
-  /*caja de mensaje*/
-  #mensaje{
-    top: 2em;
-    right: 6em;
-    position: absolute;
-    z-index: 1;
-    background-color: #FFFFFF;
-    width: 400px;
-    height: 550px;
-    border-radius: 32px;
-  }
-  .output-texto {
-    top: 1em;
-    right: 3em;
-    position: absolute;
-    width: 34%;
-    height: 16em;
-    text-align: center;
-    margin: 70px 0px;
-    background-color: #ffffff7c;
-  }
-  .text-mensaje{
-    top: 22em;
-    right: 8em;
-    position: absolute;
-    display: block;
-  }
-  .conten-text{
-    top: 19em;
-    right: 8em;
-    position: absolute;
-    display: block;
-  }
-  #mensaje .text-mensaje{
-    top: 16em;
-    right: 0em;
-    position: absolute;
-    font-size: 20px;
-    text-align: center;
-  }
-  
-  /*button*/
+
   #button{
-    margin: -190px 0px 0px -24em;
+    display: flex;
+    flex-wrap: wrap;
   }
-  #entrada .icon {
-    top: 22em;
-    right: 44em;
-    position: absolute;
-  } 
-  #button .vector{
-    padding: 0 0 1% 0;
-  }
-  #button .button-e{
-    top: 27em;
-    right: 54em;
-    position: absolute;
-  }
-  #button .button-d{
-    top: 27em;
-    right: 34em;
-    position: absolute;
-  }
-  #button .button-copiar{
-    top: 27em;
-    right: 12em;
-    position: absolute;
-  }
-  
-  /*footer*/
-  #conteiner-footer {
-    top: 36em;
-    right: 34em;
-    position: absolute;
-  }
-  #conteiner-footer .container_text--footer{
-    top: 0em;
-    right: 12em;
-    position: absolute;
-    width: 20em;
-  }
-  #conteiner-footer .img-icon-github{
-    top: -1em;
-    right: -1em;
-    position: absolute;
-    width: 45px;
-    height: 45px;
-  }
-  #conteiner-footer .img-icon-linkedin{
-    top: -1em;
-    right: 3em;
-    position: absolute;
-    width: 45px;
-    height: 45px;
+
+  #conteiner-footer{
+    display: flex;
+    flex-wrap: wrap;
   }

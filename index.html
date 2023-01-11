@@ -7,21 +7,21 @@
   <title>Challenges-encriptador</title>
   <!--link de estilos-->
   <link rel="stylesheet" href="./asset/css/style.css">
+  <!--destop-->
+  <link rel="stylesheet" href="./asset/css/destop.css" media="min-width: 1024px">
   <!--link de estilos de celular-->
-  <link rel="stylesheet" href="./asset/css/celular.css" media="max-width: 850px">
+  <link rel="stylesheet" href="./asset/css/celular.css" media="min-width: 760px">
   <!--link de button-->
   <link rel="stylesheet" href="./asset/css/button.css">
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="./img/favicon-32x32.png">
 </head>
 <body>
-  <header id="conteiner">
-        <h1>Challenges-encriptador</h1>
-  </header>
 
   <main>
     <!--textarea-->
       <div id="entrada">
+        <h1>Challenges-encriptador</h1>
         <textarea name="" placeholder="Ingresa el texto aqui" id="input-texto" cols="35" rows="20"></textarea>
         <div class="icon">
           <p>
@@ -42,27 +42,28 @@
   </main>
 
     <!--button-->
-  <div id="button">
-    <div class="button-e">
-      <button class="learn-more" class="b-encriptar" id="b-encriptar" onclick="encriptar()">
-        <span class="circle" aria-hidden="true"></span>
-        <span class="button-text">Encriptar</span>
-      </button>
-    </div>
+    <div id="button">
+      <div class="button-e">
+        <button class="learn-more" class="b-encriptar" id="b-encriptar" onclick="encriptar()">
+          <span class="circle" aria-hidden="true"></span>
+          <span class="button-text">Encriptar</span>
+        </button>
+      </div>
 
-    <div class="button-d">
-      <button class="learn-more" class="b-desencriptar" onclick="desencriptar()">
-        <span class="circle" aria-hidden="true"></span>
-        <span class="button-text">Desencriptar</span>
-      </button>
+      <div class="button-d">
+        <button class="learn-more" class="b-desencriptar" onclick="desencriptar()">
+          <span class="circle" aria-hidden="true"></span>
+          <span class="button-text">Desencriptar</span>
+        </button>
+      </div>
+      <div class="button-copiar">
+        <button class="learn-more" class="b-copiar" onclick="copiar()">
+          <span class="circle" aria-hidden="true"></span>
+          <span class="button-text">COPIAR</span>
+        </button>
+      </div>
     </div>
-    <div class="button-copiar">
-      <button class="learn-more" class="b-copiar" onclick="copiar()">
-        <span class="circle" aria-hidden="true"></span>
-        <span class="button-text">COPIAR</span>
-      </button>
-    </div>
-  </div>
+   
   <!--footer-->
   <footer id="conteiner-footer" >
 
