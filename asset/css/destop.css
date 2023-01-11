@@ -1,21 +1,24 @@
-  #entrada{
-    flex: 1;
-    min-width: 250px; 
-    margin: 0 auto;
-  }
+main{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10em 0em;
+}
 
-  #entrada:first-child{
-    flex: 2;
-    padding: 30px;
-    margin-bottom: 0px;
-  }
+#entrada{
+  min-width: 250px;
+  margin: 0 auto;
+}
 
-  #button{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  #conteiner-footer img{
-    width: 2rem;
-    height: 2rem;
-  }
+#button{
+  padding: 0em 27em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+#conteiner-footer{
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+   

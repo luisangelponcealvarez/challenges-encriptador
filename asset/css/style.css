@@ -12,7 +12,7 @@
   main{
     display: flex;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 25px;
   }
 
   #entrada{
@@ -26,6 +26,7 @@
   }
 
   #conteiner-footer{
+    padding: 25px;
     display: flex;
     flex-wrap: wrap;
   }
