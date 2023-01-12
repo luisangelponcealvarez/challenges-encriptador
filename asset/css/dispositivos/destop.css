@@ -1,0 +1,59 @@
+body{
+  margin: 15px;
+}
+
+main{
+  justify-content: center;
+  flex-direction: row;
+  padding: 0;
+}
+
+#entrada{
+  min-width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+
+#entrada .icon{
+  margin: 5px;
+}
+
+#button{
+  padding: 0em;
+}
+
+#button .button-e{
+  margin-top: 0em;
+  margin-left: 2em;
+  padding: 0em;
+  display: flex;
+}
+
+#button .button-d{
+  margin-top: 0em;
+  margin-left: 5em;
+  padding: 0em;
+  display: flex;
+}
+
+.button-copiar{
+  margin-top: 1em;
+  margin-left: 4em;
+  padding: 0em;
+  display: flex;
+}
+
+
+#conteiner-footer{
+  margin-top: 1em;
+  margin-left: 17em;
+  text-align: center;
+  padding: 30px;
+  display: flex;
+}
+
+#conteiner-footer img{
+  width: 2em;
+  height: 2em;
+}

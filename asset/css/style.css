@@ -18,6 +18,14 @@
   #entrada{
     min-width: 250px;
     margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 0px;
+  }
+
+  .output-texto{
+    outline: none;
+    border: 0;
   }
 
   #button{
