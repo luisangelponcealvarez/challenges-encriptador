@@ -8,11 +8,9 @@
   <!--link de estilos-->
   <link rel="stylesheet" href="./asset/css/style.css">
   <!--destop-->
-  <link rel="stylesheet" href="./asset/css/dispositivos/destop.css" media="screen and (min-width: 1024px)">
+  <link rel="stylesheet" href="./asset/css/dispositivos/destop.css" media="(min-width: 1024px)">
   <!--link de estilos de celular-->
-  <link rel="stylesheet" href="./asset/css/dispositivos/celular.css" media="screen and(max-width: 767px)">
-  <!--link de estilos de tablet-->
-  <link rel="stylesheet" href="./asset/css/dispositivos/tablet.css" media="screen and(min-width: 768px) and(max-width: 1023px)">
+  <link rel="stylesheet" href="./asset/css/dispositivos/celular.css" media="(max-width: 767px)">
   <!--link de button-->
   <link rel="stylesheet" href="./asset/css/button.css">
   <!-- Favicon -->
@@ -23,7 +21,8 @@
   <main>
     <!--textarea-->
       <div id="entrada">
-        <textarea name="" placeholder="Ingresa el texto aqui" id="input-texto" class="output-texto" cols="35" rows="20"></textarea>
+        <textarea name="" placeholder="Ingresa el texto aqui" id="input-texto" class="output-texto" cols="30" rows="20"></textarea>
+
         <div class="icon">
           <p>
             Solo letras minúsculas y sin acentos
@@ -48,12 +47,13 @@
       </div>
 
     <!--caja de mensaje-->
-      <div id="entrada">
-          <textarea name="" id="output-texto" class="output-texto" cols="35" rows="20" spellcheck="false" readonly></textarea>
+      <div id="mensaje">
+          <textarea name="" id="output-texto" class="output-texto" cols="30" rows="20" spellcheck="false" readonly></textarea>
         
-          <div id="texto-1" class="conten-text">
-            <h2>Ningún mensaje fue encontrado</h2>
+        <div id="texto-1" class="conten-text">
+          <h2>Ningún mensaje fue encontrado</h2>
         </div>
+
         <p class="text-mensaje" id="text-mensaje">Ingresa el texto que desees encriptar o desencriptar.</p>
         
         <div class="button-copiar">
@@ -68,6 +68,10 @@
 
   <!--footer-->
   <footer id="conteiner-footer" >
+    
+    <div class="container-text--footer">
+      <span>Copyright © | LUIS ANGEL PONCE ALVAREZ</span>
+    </div>
 
     <div class="container_redes-footer">
       
@@ -79,10 +83,6 @@
           <img src="./asset/css/icon/icons8-linkedin-100.png" alt="linkedin" class="img-icon-linkedin">
         </a>
 
-    </div>
-
-    <div class="container-text--footer">
-      <span>Copyright © | LUIS ANGEL PONCE ALVAREZ</span>
     </div>
   </footer>
 

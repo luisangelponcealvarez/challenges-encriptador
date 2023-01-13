@@ -1,5 +1,5 @@
 body{
-  margin: 15px;
+  margin: 30px;
 }
 
 main{
@@ -11,8 +11,15 @@ main{
 #entrada{
   min-width: 250px;
   margin: 0 auto;
+}
+
+#entrada, #mensaje .output-texto{
+  margin: 0 auto;
+  background: none;
+  background-color: aliceblue;
+  border-radius: 20px;
   text-align: center;
-  align-items: center;
+  padding: 2px;
 }
 
 #entrada .icon{
