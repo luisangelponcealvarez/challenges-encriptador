@@ -36,7 +36,7 @@ Las "llaves" de encriptación que se utilizaron son las siguiente:
 
 **Visualiación:**  
   
-![Encriptador]()
+![Encriptador](./img/proyecto.png)
 
 
 ---
