@@ -36,7 +36,7 @@ Las "llaves" de encriptación que se utilizaron son las siguiente:
 
 **Visualiación:**  
   
-![Encriptador](./img/Captura%20de%20pantalla%202023-01-09%20091410.png)
+![Encriptador]()
 
 
 ---

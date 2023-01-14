@@ -6,7 +6,7 @@
   }
 
   body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(117, 117, 117);
     align-items: center;
     text-align: center;
   }
@@ -21,11 +21,12 @@
   #entrada, #mensaje{
     min-width: 250px;
     margin: 0 auto;
-    background-color: rgb(117, 117, 117);
     border-radius: 20px;
+    background-color: #ffffff;
   }
   
   .output-texto{
+    resize: none;
     background: none;
     outline: none;
     border: 0;

@@ -1,5 +1,5 @@
 body{
-  margin: 25px 18px;
+  margin: 19px 20px;
 }
 
 main{
@@ -15,9 +15,8 @@ main{
 
 #entrada, #mensaje .output-texto{
   margin: 0 auto;
-  background: none;
   text-align: center;
-  padding: 2px;
+  padding: 11px 17px;
 }
 
 #entrada .icon{
