@@ -4,33 +4,3 @@
   box-sizing: border-box;
 }
 
-#entrada, #mensaje{
-  min-width:  250px;
-  margin-top: 12px;
-  background-color: aliceblue;
-  border-radius: 20px;
-}
-
-main textarea{
-  margin: 11px;
-  background: none;
-  text-align: center;
-}
-
-.conten-text{
-  margin-top: -152px;
-}
-
-#conteiner-footer{
-  margin: 10px;
-  margin-top: 41px;
-}
-
-#conteiner-footer .container_redes-footer{
-  margin-left: 8em;
-}
-
-#conteiner-footer img{
-  width: 3em;
-  height: 3em;
-}
