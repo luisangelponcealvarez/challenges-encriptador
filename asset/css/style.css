@@ -1,0 +1,73 @@
+/* formateo */
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    margin: 10px;
+    background-color: #fafafa;
+  }
+  
+  .output-texto{
+    border: none;
+    background: none;
+  }
+
+/* textarea */
+
+  #entrada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #000;
+    border-radius: 30px;
+    background-color: rgba(200, 200, 200, .5);
+  }
+
+  #entrada .output-texto{
+    display: flex;
+  }
+
+  #entrada .icon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  #entrada #button{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+/* caja de mensaje */
+
+  #mensaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #000;
+    border-radius: 30px;
+    background-color: rgba(200, 200, 200, .5);
+  }
+
+  #mensaje .conten-text, .text-mensaje{
+    width: 100%;
+  }
+
+
+/* footer */
+
+  #conteiner-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }  
