@@ -1,63 +1,21 @@
-body{
-  margin: 19px 20px;
-}
 
-main{
-  justify-content: center;
-  flex-direction: row;
-  padding: 0;
-}
+  body{
+    background-image: url(../wallpaper/en\ mantenimiento.png);  
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    justify-content: center;
+    align-items: center;
+  }
 
-#entrada, #mensaje{
-  margin: 0 auto;
-  padding: 0px;
-}
+  #entrada{
+    display: none;
+  }
 
-#entrada, #mensaje .output-texto{
-  margin: 0 auto;
-  text-align: center;
-  padding: 11px 17px;
-}
+  #mensaje{
+    display: none;
+  }
 
-#entrada .icon{
-  margin: 5px;
-}
-
-#button{
-  padding: 0em;
-}
-
-#button .button-e{
-  margin-top: 0em;
-  margin-left: 2em;
-  padding: 0em;
-  display: flex;
-}
-
-#button .button-d{
-  margin-top: 0em;
-  margin-left: 5em;
-  padding: 0em;
-  display: flex;
-}
-
-.button-copiar{
-  margin-top: 1em;
-  margin-left: 4em;
-  padding: 0em;
-  display: flex;
-}
-
-
-#conteiner-footer{
-  font-size: 14px;
-  margin-top: -1em;
-  margin-left: 9em;
-  text-align: center;
-  padding: 30px;
-}
-
-#conteiner-footer img{
-  width: 2em;
-  height: 2em;
-}
+  #conteiner-footer{
+    display: none;
+  }
