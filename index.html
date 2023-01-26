@@ -17,6 +17,72 @@
   <link rel="icon" type="image/x-icon" href="./img/favicon-32x32.png">
 </head>
 <body>
+  <main>
+    <!--textarea-->
+      <div id="entrada">
+        <textarea name="" placeholder="Ingresa el texto aqui" id="input-texto" class="output-texto" cols="30" rows="20"></textarea>
+
+        <div class="icon">
+          <p>
+            !Solo letras minúsculas y sin acentos
+          </p>
+        </div>
+
+        <div id="button">
+          <div class="button-e">
+            <button class="learn-more" class="b-encriptar" id="b-encriptar" onclick="encriptar()">
+              <span class="circle" aria-hidden="true"></span>
+              <span class="button-text">Encriptar</span>
+            </button>
+          </div>
+      
+          <div class="button-d">
+            <button class="learn-more" class="b-desencriptar" onclick="desencriptar()">
+              <span class="circle" aria-hidden="true"></span>
+              <span class="button-text">Desencriptar</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    <!--caja de mensaje-->
+      <div id="mensaje">
+          <textarea name="" id="output-texto" class="output-texto" cols="30" rows="20" spellcheck="false" readonly></textarea>
+        
+        <div id="texto-1" class="conten-text">
+          <h2>Ningún mensaje fue encontrado</h2>
+        </div>
+
+        <p class="text-mensaje" id="text-mensaje">Ingresa el texto que desees encriptar o desencriptar.</p>
+        
+        <div class="button-copiar">
+          <button class="learn-more" class="b-copiar" onclick="copiar()">
+            <span class="circle" aria-hidden="true"></span>
+            <span class="button-text">COPIAR</span>
+          </button>
+        </div>
+      </div>
+
+  </main>
+
+  <!--footer-->
+  <footer id="conteiner-footer">
+    
+    <div class="container-text--footer">
+      <span>Copyright © | LUIS ANGEL PONCE ALVAREZ</span>
+    </div>
+
+    <div class="container_redes-footer">
+      
+        <a href="https://github.com/luisangelponcealvarez" target="_blank">
+          <img src="./asset/css/icon/icon-github-hab.png" alt="github" class="img-icon-github">
+        </a>
+
+        <a href="https://www.linkedin.com/in/luis-angel-ponce-alvarez-848826242/" target="_blank">
+          <img src="./asset/css/icon/icons8-linkedin-100.png" alt="linkedin" class="img-icon-linkedin">
+        </a>
+        
+    </div>
   
   <script src="./asset/js/script.js"></script>
 </body>
