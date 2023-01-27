@@ -8,7 +8,7 @@
 
   body{
     margin: 10px;
-    background-color: rgba(250, 250, 250, .5);
+    background-color: #A9CEB6;
   }
   
   .output-texto{
@@ -35,7 +35,6 @@
   #entrada .icon{
     display: flex;
     justify-content: center;
-    align-content: center;
     text-align: center;
   }
 
