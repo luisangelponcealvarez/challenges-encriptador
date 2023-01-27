@@ -36,7 +36,7 @@ Las "llaves" de encriptación que se utilizaron son las siguiente:
 
 **Visualización:**  
   
-![Encriptador](./img/proyecto.png)
+![Encriptador](./img/challenge.png)
 
 
 ---
