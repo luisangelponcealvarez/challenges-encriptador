@@ -9,7 +9,7 @@
   body{
     margin: 10px;
     background-color: #A9CEB6;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   
   .output-texto{
