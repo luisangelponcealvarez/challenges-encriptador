@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Challenges-encriptador</title>
-  <!--link de estilos-->
-  <link rel="stylesheet" href="./asset/css/style.css">
-  <!--link de button-->
-  <link rel="stylesheet" href="./asset/css/button.css">
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="./img/favicon-32x32.png">
-</head>
-<body>
-  <main>
-    <!--textarea-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenges-encriptador</title>
+    <!--link de estilos-->
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <!--link de button-->
+    <link rel="stylesheet" href="./asset/css/button.css" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./img/favicon-32x32.png" />
+  </head>
+  <body>
+    <main class="home">
+      <!--textarea-->
       <div id="entrada">
-        <textarea name="" placeholder="Ingresa el texto aqui" id="input-texto" class="output-texto" cols="30" rows="20"></textarea>
+        <textarea
+          name=""
+          placeholder="Ingresa el texto aqui"
+          id="input-texto"
+          class="IngresarTexto"
+        ></textarea>
 
         <div class="icon">
-          <p>
-            !Solo letras minúsculas y sin acentos
-          </p>
+          <p>!Solo letras minúsculas y sin acentos</p>
         </div>
 
         <div id="button">
           <div class="button-e">
-            <button class="learn-more" class="b-encriptar" id="b-encriptar" onclick="encriptar()">
+            <button
+              class="learn-more"
+              class="b-encriptar"
+              id="b-encriptar"
+              onclick="encriptar()"
+            >
               <span class="circle" aria-hidden="true"></span>
               <span class="button-text">Encriptar</span>
             </button>
           </div>
-      
+
           <div class="button-d">
-            <button class="learn-more" class="b-desencriptar" onclick="desencriptar()">
+            <button
+              class="learn-more"
+              class="b-desencriptar"
+              onclick="desencriptar()"
+            >
               <span class="circle" aria-hidden="true"></span>
               <span class="button-text">Desencriptar</span>
             </button>
@@ -41,16 +53,26 @@
         </div>
       </div>
 
-    <!--caja de mensaje-->
+      <!--caja de mensaje-->
       <div id="mensaje">
-          <textarea name="" id="output-texto" class="output-texto" cols="30" rows="20" spellcheck="false" readonly></textarea>
-        
+        <textarea
+          name=""
+          id="output-texto"
+          class="mensaje"
+          cols="30"
+          rows="20"
+          spellcheck="false"
+          readonly
+        ></textarea>
+
         <div id="texto-1" class="conten-text">
           <h2>Ningún mensaje fue encontrado</h2>
         </div>
 
-        <p class="text-mensaje" id="text-mensaje">Ingresa el texto que desees encriptar o desencriptar.</p>
-        
+        <p class="text-mensaje" id="text-mensaje">
+          Ingresa el texto que desees encriptar o desencriptar.
+        </p>
+
         <div class="button-copiar">
           <button class="learn-more" class="b-copiar" onclick="copiar()">
             <span class="circle" aria-hidden="true"></span>
@@ -58,28 +80,33 @@
           </button>
         </div>
       </div>
+    </main>
 
-  </main>
-
-  <!--footer-->
-  <footer id="conteiner-footer">
-    
-    <div class="container-text--footer">
-      <span>Copyright © | LUIS ANGEL PONCE ALVAREZ</span>
-    </div>
-
-    <div class="container_redes-footer">
-      
+    <!--footer-->
+    <footer id="conteiner-footer">
+      <div class="container_redes-footer">
         <a href="https://github.com/luisangelponcealvarez" target="_blank">
-          <img src="./asset/css/icon/icon-github-hab.png" alt="github" class="img-icon-github">
+          <img
+            src="./asset/css/icon/icon-github-hab.png"
+            alt="github"
+            class="img-icon-github"
+          />
         </a>
-
-        <a href="https://www.linkedin.com/in/luis-angel-ponce-alvarez-848826242/" target="_blank">
-          <img src="./asset/css/icon/icons8-linkedin-100.png" alt="linkedin" class="img-icon-linkedin">
+        <a
+          href="https://www.linkedin.com/in/luis-angel-ponce-alvarez-848826242/"
+          target="_blank"
+        >
+          <img
+            src="./asset/css/icon/icons8-linkedin-100.png"
+            alt="linkedin"
+            class="img-icon-linkedin"
+          />
         </a>
-        
-    </div>
-  
-  <script src="./asset/js/script.js"></script>
-</body>
+      </div>
+      <div class="container-text--footer">
+        <span>Copyright © | LUIS ANGEL PONCE ALVAREZ</span>
+      </div>
+    </footer>
+    <script src="./asset/js/script.js"></script>
+  </body>
 </html>
