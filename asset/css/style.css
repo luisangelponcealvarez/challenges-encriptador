@@ -12,6 +12,7 @@ textarea {
   border-radius: 20px;
   text-align: center;
   padding: 10px;
+  resize: none;
 }
 
 .home {
@@ -93,7 +94,7 @@ textarea {
     flex-wrap: wrap;
     background-color: blue;
     border-radius: 20px;
-    margin: 10px 10px;
+    margin: 10px auto;
     padding: 10px;
   }
 
@@ -107,9 +108,9 @@ textarea {
   #mensaje {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 10px;
+    margin: 10px auto;
     padding: 10px;
-    background-color: bisque;
+    background-color: rgb(98, 0, 255);
     border-radius: 20px;
   }
 
