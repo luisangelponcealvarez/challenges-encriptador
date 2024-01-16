@@ -1,45 +1,45 @@
-# Encriptador de Texto | Challenge ONE - Oracle Next Education
+# Text Encrypter | Challenge ONE - Oracle Next Education
 
-Link del proyecto al final ⬇
-
----
-
-Este es el primer Challenge del programa ONE - Oracle Next Education, donde se nos solicitó hacer un encriptador de texto, donde se podrá intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
+Project link below ⬇
 
 ---
 
-Las "llaves" de encriptación que se utilizaron son las siguiente:  
-  
-  - La letra "e" es convertida para `"enter"`
-  - La letra "i" es convertida para `"imes"`
-  - La letra "a" es convertida para `"ai"`
-  - La letra "o" es convertida para `"ober"`
-  - La letra "u" es convertida para `"ufat"`
+This is the first Challenge of the ONE - Oracle Next Education program, where we were asked to make a text encrypter, where you can exchange secret messages with other people who know the secret of the encryption used.
 
 ---
 
-**Requisitos:**  
-  - Debe funcionar solo con letras minúsculas.
-  - No deben ser utilizados letras con acentos ni caracteres especiales.
-  - Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.  
+The encryption "keys" used are the following:
 
-**Por ejemplo:** `"gato" => "gaitober"` `"gaitober" => "gato"`
+- The letter "e" is converted for `"enter"`
+- The letter "i" is converted for `"imes"`
+- The letter "a" is converted for `"ai"`
+- The letter "o" is converted for `"ober"`
+- The letter "u" is converted for `"ufat"`
 
 ---
 
-**Tecnologías utilizadas:**  
+**Requirements:**
+
+- It must work only with lowercase letters.
+- Letters with accents and special characters must not be used.
+- It must be possible to convert a word to the encrypted version and also return an encrypted word to its original version.
+
+**For example:** `"cat" => "caitober"` `"caitober" => "cat"`
+
+---
+
+**Technologies used:**
+
 <img src="https://img.icons8.com/color/344/html-5--v1.png" alt="html" width="50"/>
 <img src="https://img.icons8.com/color/344/css3.png" alt="css" width="50"/>
 <img src="https://img.icons8.com/color/344/javascript--v1.png" alt="JavaScript" width="50"/>
 
 ---
 
-**Visualización:**  
-  
-![Encriptador](./img/challenge.png)
+**Preview:**
 
+![Encrypter](./img/challenge.png)
 
 ---
 
-[**Ir a la página** ✌](https://luisangelponcealvarez.github.io/challenges-encriptador)
----
+[**Go to page** ✌](https://luisangelponcealvarez.github.io/challenges-encriptador)
