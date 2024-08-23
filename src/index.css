@@ -3,4 +3,5 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
+  background-color: rgba(71, 71, 71, 1);
 }

@@ -1,25 +1,35 @@
-#area-para-la-definición {
-  width: 70%;
+#area-para-la-definicion {
+  background-color: rgba(45, 45, 45, 1);
+  border-radius: 10px;
+  margin: 1em;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
 
-#area-para-la-definición .text {
+#area-para-la-definicion .text {
   width: 50%;
+  margin: 1em;
 }
 
-#area-para-la-definición .title {
-  font-size: 2.5em;
-  line-height: 1.1;
-}
-
-#area-para-la-definición p {
-  font-size: 1.5em;
-  line-height: 1.1;
-}
-
-#area-para-la-definición .icon {
+#area-para-la-definicion .title {
+  color: #ff0000;
+  margin: 1em auto;
   font-size: larger;
+}
+
+#area-para-la-definicion p {
+  font-size: large;
+  color: white;
+}
+
+#area-para-la-definicion .icon {
+  margin: 1em;
+  font-size: 1.7em;
+  color: black;
+}
+
+#area-para-la-definicion .icon:hover {
+  color: white;
 }
