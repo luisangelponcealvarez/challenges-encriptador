@@ -1,0 +1,25 @@
+#area-para-la-definición {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#area-para-la-definición .text {
+  width: 50%;
+}
+
+#area-para-la-definición .title {
+  font-size: 2.5em;
+  line-height: 1.1;
+}
+
+#area-para-la-definición p {
+  font-size: 1.5em;
+  line-height: 1.1;
+}
+
+#area-para-la-definición .icon {
+  font-size: larger;
+}
