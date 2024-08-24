@@ -1,0 +1,35 @@
+.sectionTitle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #ff0000;
+  font-size: 30px;
+  margin-left: 1em;
+}
+
+.text {
+  max-width: 100%;
+  font-size: 1.2em;
+  margin: 1em;
+  color: white;
+}
+
+.icon {
+  margin: 1em;
+  font-size: 1.7em;
+  color: white;
+}
+
+@media (300px <= width <= 800px) {
+  .sectionTitle {
+    max-width: 100%;
+    justify-content: center;
+  }
+  .text {
+    margin: 1em;
+  }
+}
