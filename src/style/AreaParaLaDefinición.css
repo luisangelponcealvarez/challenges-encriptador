@@ -4,22 +4,24 @@
   margin: 1em;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
 }
 
-#area-para-la-definicion .text {
-  width: 50%;
-  margin: 1em;
+#area-para-la-definicion .section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 #area-para-la-definicion .title {
   color: #ff0000;
-  margin: 1em auto;
+  margin: 1em;
   font-size: larger;
 }
 
-#area-para-la-definicion p {
+#area-para-la-definicion .text {
+  max-width: max-content;
+  margin: 1em;
   font-size: large;
   color: white;
 }
