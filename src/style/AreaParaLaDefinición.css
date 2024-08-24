@@ -29,9 +29,9 @@
 #area-para-la-definicion .icon {
   margin: 1em;
   font-size: 1.7em;
-  color: black;
+  color: white;
 }
 
 #area-para-la-definicion .icon:hover {
-  color: white;
+  color: black;
 }
