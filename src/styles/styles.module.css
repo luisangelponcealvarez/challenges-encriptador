@@ -1,0 +1,26 @@
+.sectionTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 1em;
+}
+
+.title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 1em;
+}
+
+.text {
+  max-width: max-content;
+  margin: 1em;
+  font-size: large;
+  color: white;
+}
+
+.icon {
+  margin: 1em;
+  font-size: 1.7em;
+  color: white;
+}
