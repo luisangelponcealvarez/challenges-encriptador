@@ -8,6 +8,8 @@ This is the first Challenge of the ONE - Oracle Next Education program, where we
 
 ---
 
+Enlace del figma: https://www.figma.com/design/7IHMhfrRXTRfQdlcyoUJoK/challenge-Encripter?node-id=0-1&t=SS0V3acvlId4Mst7-0
+
 The encryption "keys" used are the following:
 
 - The letter "e" is converted for `"enter"`
