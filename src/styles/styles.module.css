@@ -24,6 +24,67 @@
   color: white;
 }
 
+.containerAndButtons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Footer */
+.footer {
+  margin: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.footer__links {
+  margin: 1em;
+  color: azure;
+  display: inline;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Button */
+
+button {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 25px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  margin: 1em;
+  font-family: "Poppins", sans-serif;
+}
+
+button::before {
+  margin-left: auto;
+}
+
+button::after,
+button::before {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+
+button:hover::after,
+button:hover::before {
+  width: 100%;
+}
+
+/* Media query */
+
 @media (300px <= width <= 800px) {
   .sectionTitle {
     max-width: 100%;
