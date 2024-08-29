@@ -1,0 +1,142 @@
+/*  formateo */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+textarea {
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  resize: none;
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+/* entrada de texto  */
+#entrada {
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blue;
+  border-radius: 20px;
+  margin: 10px 10px;
+  padding: 10px;
+}
+
+#entrada .IngresarTexto {
+  width: 100%;
+  height: 200px;
+  margin: 10px;
+}
+
+.icon {
+  width: 100%;
+  text-align: center;
+}
+
+/* salida del mensaje */
+#mensaje {
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 10px;
+  background-color: rgb(98, 0, 255);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#mensaje .mensaje {
+  width: 100%;
+  height: 200px;
+  margin: 10px;
+}
+
+#mensaje .text-mensaje {
+  width: 100%;
+}
+
+/* footer */
+#conteiner-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#conteiner-footer .container_redes-footer {
+  margin: 10px auto;
+}
+
+#conteiner-footer .container_redes-footer img {
+  width: 50px;
+}
+
+#conteiner-footer .container-text--footer {
+  width: 100%;
+  text-align: center;
+}
+
+/* tamaños chiquitos */
+
+@media (max-width: 800px) {
+  /* entrada de texto  */
+  #entrada {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+  #entrada .IngresarTexto {
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+  }
+
+  /* salida del mensaje */
+  #mensaje {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgb(98, 0, 255);
+    border-radius: 20px;
+  }
+
+  #mensaje .mensaje {
+    width: 100%;
+    height: 200px;
+    margin: auto 10px;
+  }
+
+  /* footer */
+  #conteiner-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #conteiner-footer .container_redes-footer {
+    margin: 10px auto;
+  }
+
+  #conteiner-footer .container_redes-footer img {
+    width: 50px;
+  }
+
+  #conteiner-footer .container-text--footer {
+    width: 100%;
+    text-align: center;
+  }
+}

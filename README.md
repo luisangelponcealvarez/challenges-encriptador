@@ -1,56 +1,47 @@
-# React + TypeScript + Vite
+# Text Encrypter | Challenge ONE - Oracle Next Education
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project link below ⬇
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is the first Challenge of the ONE - Oracle Next Education program, where we were asked to make a text encrypter, where you can exchange secret messages with other people who know the secret of the encryption used.
 
-## Expanding the ESLint configuration
+---
 
-<<<<<<< HEAD
 Enlace del figma: https://www.figma.com/design/7IHMhfrRXTRfQdlcyoUJoK/challenge-Encripter?node-id=0-1&t=SS0V3acvlId4Mst7-0
 
 The encryption "keys" used are the following:
-=======
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
->>>>>>> luisangelponcealvarez/issue2
 
-- Configure the top-level `parserOptions` property like this:
+- The letter "e" is converted for `"enter"`
+- The letter "i" is converted for `"imes"`
+- The letter "a" is converted for `"ai"`
+- The letter "o" is converted for `"ober"`
+- The letter "u" is converted for `"ufat"`
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+**Requirements:**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- It must work only with lowercase letters.
+- Letters with accents and special characters must not be used.
+- It must be possible to convert a word to the encrypted version and also return an encrypted word to its original version.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+**For example:** `"cat" => "caitober"` `"caitober" => "cat"`
+
+---
+
+**Technologies used:**
+
+<img src="https://img.icons8.com/color/344/html-5--v1.png" alt="html" width="50"/>
+<img src="https://img.icons8.com/color/344/css3.png" alt="css" width="50"/>
+<img src="https://img.icons8.com/color/344/javascript--v1.png" alt="JavaScript" width="50"/>
+
+---
+
+**Preview:**
+
+![Encrypter](./img/challenge.png)
+
+---
+
+[**Go to page** ✌](https://luisangelponcealvarez.github.io/challenges-encriptador)
