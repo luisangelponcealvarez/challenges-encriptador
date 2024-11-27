@@ -1,3 +1,13 @@
+.section {
+  display: grid;
+  grid-column: 2;
+  gap: 2;
+}
+
+.container {
+  width: 50%;
+}
+
 .sectionTitle {
   display: flex;
   flex-wrap: wrap;
